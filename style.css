@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+:root {
+  --color1: #f6fbf7;
+  --color2: #154b8a;
+  --color3: #d0d0d0;
+  --color4: #1e1d1b;
+  --color5: #4a4c49;
+  --color6: #1267b0;
+  --color7: #ffffff;
+}
+
+body {
+  background-color: var(--color5);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 62.5%;
+  overflow:hidden;
+}
+
+main {
+  background-color: var(--color1);
+  width: 390px;
+  padding: 1rem;
+} 
+
+.logo_sect {
+  margin: 4rem 1.5rem;
+  text-align: center;
+}
+
+#i-logo-text {
+  font-size: 4rem;
+  font-weight:500;
+  margin-bottom: -15px;
+}
+
+.logo_sect .wear {
+  text-transform: uppercase;
+  color: var(--color5);
+  font-weight: 400;
+  font-size: 0.9rem;
+  letter-spacing: 0.7rem;
+  text-decoration: none;
+  width: 312px;
+  margin-left:3.5px;
+  display: inline-block;
+}
+
+.purpose {
+  width: 314px;
+  text-transform: uppercase;
+  font-size: 0.42rem;
+  color: var(--color4);
+  font-weight: 500;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+  margin-left: -2px;
+}
+
+.bdr-left {
+  border-left: 0.5px solid var(--color3);
+  padding-left: 5px;
+}
+.input-group {
+  width: 100%;
+}
+
+.email {
+  margin-bottom: 1rem;
+}
+
+.password {
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid var(--color3);
+  color: var(--color5);
+  background-color: white;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.int-cls-pass {
+  flex-grow: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 0.9rem;
+  color: var(--color5);
+  font-weight: 700;
+  outline:none;
+}
+
+.img-container {
+  width: 30px;
+  height: 30px;
+}
+
+.eye {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.int-cls {
+  padding: 0.9rem;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid var(--color3);
+  color: var(--color5);
+  font-weight: 700;
+}
+
+form .fgt-pass {
+  text-align: right;
+  font-size: 0.8rem;
+  color: var(--color5);
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.login_sect {
+  margin-top: 1.5rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.btn {
+  padding: 0.4rem 2.2rem;
+  border-radius: 10px;
+  color: var(--color1);
+  background: linear-gradient(
+    to top left,
+    var(--color6) 0%,
+    var(--color2) 100%
+  );
+  border:none;
+text-align:center;
+font-size:1rem;
+height:2.6rem;
+cursor:pointer;
+transition: .4s;
+}
+
+.btn:hover{
+ transform:scale(1.1);
+}
+
+.img-cont{
+ width:30px;
+ height:30px;
+}
+
+.log-img{
+ width:100%;
+ height:100%;
+ object-fit:cover;
+}
+
+.alt-log-logos{
+ display:flex;
+ gap: 2rem;
+ margin-bottom:1rem;
+}
+
+.login-alt-text{
+ font-size:1rem;
+ color:var(--color5);
+ font-weight:500;
+ margin-top:1rem;
+}
+
+.login-w{
+ margin-top:0.3rem;
+ margin-bottom:1rem;
+}
+
+.sign_up_ques{
+ color:var(--color5);
+ font-size:0.7rem;
+ font-weight:700;
+ margin-bottom:0.8rem;
+}
+
+.signup{
+ color:var(--color6);
+ font-weight:700;
+ font-size:0.8rem;
+}
